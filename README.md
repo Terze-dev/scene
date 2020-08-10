@@ -8,6 +8,7 @@ Contact: scene@terze.org
 |---|---|
 |Development link|http://scene.zm|
 |Live link|https://scene.terze.org|
+|Project website|https://terze.org/scene|
 
 ### Part 1: Data Warehouse - The Crypt
 
