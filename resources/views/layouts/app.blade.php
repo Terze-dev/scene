@@ -11,10 +11,13 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    @livewireStyles
 </head>
 <body>
     <div id="app">
@@ -73,5 +76,6 @@
             @yield('content')
         </main>
     </div>
+    @livewireScripts
 </body>
 </html>
