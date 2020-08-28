@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 @auth
 <div class="container">
     <div class="row justify-content-center">
@@ -15,8 +16,10 @@
 @endauth
 
 @guest
-    {{-- Show login and registration form if not logged in --}}
-    loginform
+    <div class="container mx-auto">
+        {{-- Show login and registration form if not logged in --}}
+        <livewire:login />
+    </div>
 @endguest
 
 @endsection
