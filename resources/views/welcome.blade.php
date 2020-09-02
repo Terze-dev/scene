@@ -8,6 +8,7 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-body">
+			moo
                 </div>
             </div>
         </div>
@@ -21,5 +22,6 @@
         <livewire:login />
     </div>
 @endguest
+
 
 @endsection

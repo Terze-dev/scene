@@ -1,6 +1,5 @@
 {
     "editor.fontFamily": "'Dank Mono', Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "editor.tabSize": 8,
+"editor.fontLigatures": true,
     "editor.tabCompletion": "on"
 }
